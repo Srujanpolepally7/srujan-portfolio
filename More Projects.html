@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Srujankumar Polepally | Projects</title>
+  <meta name="description" content="More projects by Srujankumar Polepally: data science, ML, LLMs, time-series, and cloud analytics." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Reuse same header -->
+  <header class="site-header container">
+    <a class="brand" href="index.html#home">
+      <img src="assets/logo.svg" alt="Logo" width="28" height="28" />
+      <span>Srujankumar Polepally</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html#projects">Home</a>
+      <a href="projects.html">More Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#certifications">Highlights</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode">🌗</button>
+  </header>
+
+  <main id="projects">
+    <section class="container section">
+      <h1>More Projects</h1>
+      <p class="subtitle">
+        A deeper look at additional data science, ML, LLM, and analytics projects I’ve worked on.
+      </p>
+
+        <div class="cards">
+
+          <!-- 1. AWS Spotify Pipeline -->
+          <article class="card">
+              <h3>Pipelines on AWS for Scalable Analytics</h3>
+              <p>
+                Built an end-to-end cloud data pipeline on <strong>AWS</strong> using the 
+                <strong>Spotify 2023 dataset</strong>. Data is ingested into <strong>S3</strong>, 
+                transformed with <strong>AWS Glue</strong>, cataloged via <strong>Glue Crawler</strong>, 
+                queried in <strong>Athena</strong>, and visualized in <strong>QuickSight</strong>.
+              </p>
+              <div class="tags">
+                <span>AWS</span><span>S3</span><span>Glue</span><span>Athena</span>
+                <span>QuickSight</span><span>ETL</span><span>Spotify Dataset</span>
+                <span>Cloud Data Pipeline</span>
+              </div>
+              <div class="actions">
+                <a class="btn small ghost" target="_blank"
+                  href="https://github.com/Srujanpolepally7/Architecting-Intelligent-Data-Pipelines-on-AWS-for-Scalable-Analytic">
+                  View Code & Docs
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. CO2 Regression -->
+          <article class="card">
+              <h3>CO₂ Emission Prediction Using Regression Models</h3>
+              <p>
+                Built multiple <strong>regression models</strong>—single-variable, multivariate, 
+                polynomial, and non-linear—to predict CO₂ emissions of car models. Evaluated models 
+                using MSE, MAE, R², and explained variance in <strong>Python</strong> & 
+                <strong>scikit-learn</strong>.
+              </p>
+              <div class="tags">
+                <span>Regression</span><span>Linear Regression</span><span>Polynomial Regression</span>
+                <span>Non-linear Models</span><span>Python</span><span>scikit-learn</span>
+              </div>
+              <div class="actions">
+                <a class="btn small ghost" target="_blank"
+                  href="https://github.com/Srujanpolepally7/Predicting-CO2-emission-using-ML-Regression-models-">
+                  View Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Product Sales Analysis in SQL -->
+          <article class="card">
+              <h3>Product Sales Analysis in SQL</h3>
+              <p>
+                Performed complete sales analysis using <strong>SQL</strong> to extract, clean, 
+                and aggregate transactional data, revealing product performance, revenue trends, 
+                and customer behavior for retail decision-making.
+              </p>
+              <div class="tags">
+                <span>SQL</span><span>Sales Analysis</span><span>Data Analytics</span>
+                <span>Business Insights</span><span>Retail Analytics</span>
+              </div>
+              <div class="actions">
+                <a class="btn small ghost" target="_blank"
+                  href="https://github.com/Srujanpolepally7/Product-Sales-Analysis-in-SQL/tree/main">
+                  View Code
+                </a>
+                <a class="btn small ghost" target="_blank"
+                  href="https://github.com/Srujanpolepally7/Product-Sales-Analysis-in-SQL/blob/main/Product_Sales_Analysis.pdf">
+                  Read Case Study
+                </a>
+              </div>
+            </div>
+          </article>
+          
+          <article class="card">
+          <div class="card-body">
+            <h3>Customer Personality Analysis & Segmentation</h3>
+            <p>
+              Performed end-to-end <strong>customer personality analysis</strong> on a marketing dataset to
+              understand how demographics, spend patterns, and campaign responses relate to behavior. 
+              Cleaned and explored the data, engineered features, and used <strong>K-Means clustering</strong> 
+              to segment customers by income, spending, promotions, and channel usage, revealing high-value 
+              segments and campaign response patterns for targeted marketing.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>Pandas</span><span>EDA</span>
+              <span>Customer Segmentation</span><span>K-Means</span><span>Marketing Analytics</span>
+            </div>
+            <div class="actions">
+              <a class="btn small" target="_blank"
+                href="https://medium.com/@polepallysrujan/customer-personality-analysis-segmentation-with-python-7fb0432ebc59">
+                Read Case Study
+              </a>
+              <a class="btn small ghost" target="_blank"
+                href="https://github.com/Srujanpolepally7/CUSTOMER-PERSONALITY-ANALYSIS">
+                View Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>
+      © <span id="year"></span> Srujankumar Polepally ·
+      <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a> ·
+      <a href="https://medium.com/" target="_blank" rel="noreferrer">Medium</a> ·
+      <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
